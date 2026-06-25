@@ -1,11 +1,11 @@
-# Awesome-QLoRA
+<div align="center">\n<img src="assets/banner.svg" alt="Awesome QLoRA Banner" />\n</div>\n\n<div align="center">\n<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>\n<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>\n<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>\n</div>\n\n# 🌟 Awesome-QLoRA 🌟\n> **An exhaustive, SEO-friendly guide to Quantized Low-Rank Adaptation (QLoRA) for massive language models.**
 ## Quantized Low-Rank Adaptation (QLoRA): Evolution, Variants, & Applications
 
 Quantized Low-Rank Adaptation (QLoRA) is an advanced memory-efficient Parameter-Efficient Fine-Tuning (PEFT) framework. Introduced by Dettmers et al. in 2023, QLoRA revolutionized model customization by enabling the fine-tuning of massive foundation models (up to 70B parameters) on a single consumer-grade 48GB GPU without any performance degradation. It achieves this by freezing the base model into a highly compressed 4-bit data type and injecting tiny, high-precision 16-bit Low-Rank Adaptation (LoRA) weight tensors that compute gradients during backpropagation.
 
 ---
 
-## 1. The Core Architectural Innovations
+## 🏗️ 1. The Core Architectural Innovations
 
 The baseline QLoRA framework achieves its massive memory savings by combining three distinct hardware-aware and mathematical techniques.
 
@@ -17,7 +17,7 @@ The baseline QLoRA framework achieves its massive memory savings by combining th
 
 ---
 
-## 2. The Chronological Evolution & Variants
+## ⏳ 2. The Chronological Evolution & Variants
 
 Since its launch, the open-source community and research teams have iteratively expanded QLoRA's core mathematical and system-level architecture.
 
@@ -37,7 +37,7 @@ flowchart LR
 
 ---
 
-## 3. Structural Scaling & Implementation Types
+## 🚀 3. Structural Scaling & Implementation Types
 
 Developers deploy QLoRA through several framework abstractions depending on the scale of processing infrastructure and hardware targets.
 
@@ -49,7 +49,7 @@ Developers deploy QLoRA through several framework abstractions depending on the 
 
 ---
 
-## 4. Production & Downstream Applications
+## 🏭 4. Production & Downstream Applications
 
 | Application | Description | Year First Used | Paper Link |
 | :--- | :--- | :--- | :--- |
