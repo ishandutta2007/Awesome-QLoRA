@@ -18,7 +18,9 @@
 </div>
 
 
-# 🌟 Awesome-QLoRA 🌟\n> **An exhaustive, SEO-friendly guide to Quantized Low-Rank Adaptation (QLoRA) for massive language models.**
+# 🌟 Awesome-QLoRA 🌟
+
+> **An exhaustive, SEO-friendly guide to Quantized Low-Rank Adaptation (QLoRA) for massive language models.**
 
 ## Quantized Low-Rank Adaptation (QLoRA): Evolution, Variants, & Applications
 
