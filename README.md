@@ -25,8 +25,12 @@ The baseline QLoRA framework achieves its massive memory savings by combining th
 
 Since its launch, the open-source community and research teams have iteratively expanded QLoRA's core mathematical and system-level architecture.
 
-[Standard QLoRA (2023)] -------> [Unified / Extended Precision (QA-LoRA/LoftQ)] -------> [Direct Low-Bit Math (DoRA-Q / Liger)](NF4 + 16-bit LoRA Adapters)         (Quantization-Error Initialization Fixes)            (Decomposed Weight + Low-Precision Math)
 
+```mermaid
+flowchart LR
+    A["Standard QLoRA (2023)<br/>(NF4 + 16-bit LoRA Adapters)"] ---> B["Unified / Extended Precision (QA-LoRA/LoftQ)<br/>(Quantization-Error Initialization Fixes)"] 
+    B ---> C["Direct Low-Bit Math (DoRA-Q / Liger)<br/>(Decomposed Weight + Low-Precision Math)"] 
+```
 
 
 *   **The Baseline Framework (Dettmers et al., 2023)**
