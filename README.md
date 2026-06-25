@@ -68,3 +68,4 @@ Developers deploy QLoRA through several framework abstractions depending on the 
 </picture>
 </a>
 </div>
+\n\n[Awesome Link](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
