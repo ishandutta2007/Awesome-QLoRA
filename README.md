@@ -57,3 +57,14 @@ Developers deploy QLoRA through several framework abstractions depending on the 
 | [**Enterprise Domain Adaptation Sprints**](pages/enterprise.md) | *Application:* Corporations ingest specialized private datasets (legal briefs, internal medical charts) to adapt base foundation models. QLoRA acts as a cheap, rapid prototyping layer before committing to full-scale fine-tuning pipelines. | 2023 | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) |
 | [**On-Device Edge Robotic Alignment**](pages/edge.md) | *Application:* Embedded systems and industrial autonomous machinery update operational vision-language navigation policies locally using edge-case data, computing updates within highly restricted hardware thermal limits. | 2023 | N/A |
 
+
+## ⭐️ Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007/Awesome-QLoRA&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chartrepos=ishandutta2007/Awesome-QLoRA&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chartrepos=ishandutta2007/Awesome-QLoRA&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chartrepos=ishandutta2007/Awesome-QLoRA&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
